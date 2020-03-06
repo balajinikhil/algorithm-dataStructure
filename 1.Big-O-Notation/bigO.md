@@ -57,3 +57,31 @@
   4. Variable assignment is constant
   5. Acessing elements in an array or object is constant
   6. In loop complexity is the length of the loop times the complexity of whatever happens inside the loop
+
+- Space complexity
+  As n grows size of input grows,
+  Auxillary space complexity
+
+  1. primitve variables are constant
+  2. strings require O(n) space where n is length
+  3. Reference variables also O(n) n is length of array or key value
+
+- Logarithms
+  inverse of exponential
+  log2(value) = exponent -------- 2^exponent = value
+  log === log2
+
+  Divide the value by 2 until it's answer is below 1
+  O(log n) is better than O(n log n)
+
+- Use
+  Certain searching algorithms have logarithmic time complexity
+  Efficient sorting algorithms involve logarithms
+  Recursion sometimes involves logarthmic space complexity
+
+- Recap
+  1. To analayze the performance of an algorithm we use Big O notation
+  2. Big O notation can give us high level understanding of time or space complexity of an algorithm
+  3. Big O notation dosen't care about prescision, only general trends (linear? quadratic? constant?)
+  4. The time or space complexity (as measured by Big O) depends only on algorithm, not on the hardware used to run the algorithm
+  5. Big O Notation is everywhere, so get lots of practice
